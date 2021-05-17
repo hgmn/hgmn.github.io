@@ -18,22 +18,84 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# Site Settings
+locale                   : "en-US"
+title                    : "Andreas Hagemann, University of Michigan"
+title_separator          : "-"
+subtitle                 : "University of Michigan"
+name                     : "Andreas Hagemann"
+description              : "Econometrician at the University of Michigan. Contains curriculum vitae and research."
+url                      : "https://hgmn.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : # "/assets/umlogo.png"
+masthead_title           : Andreas Hagemann
+
 twitter_username: jekyllrb
 github_username:  jekyll
+
+# Site Author
+author:
+  name             : "Andreas Hagemann"
+  avatar           : "/assets/bio-photo.png"
+  bio              : "Econometrician. Assistant Professor in the Department of Economics at the University of Michigan. (he/him)"
+#  location         : "351C Lorch Hall"
+  email            :
+  links:
+    - label: "+1 (734) 764-2355"
+      icon: "fas fa-fw fa-phone-square"
+#      url: "tel:+17347642355"
+    - label: "hagem@umich.edu"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:hagem@umich.edu"
+    - label: "CV (PDF)"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/assets/hagemann_cv.pdf"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.com/citations?user=g7DnCF4AAAAJ&hl=en"
+    - label: "arXiv"
+      icon: "fas fa-fw fa-link"
+#      url: "https://arxiv.org/search/?searchtype=author&query=Hagemann%2C+A"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url: "https://github.com/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square icon-override"
+      url: "https://twitter.com/hagmnn"
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/hagmnn"
+    - label: "hagem@umich.edu"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:hagem@umich.edu"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url:
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      # url:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url:
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+
+# Reading Files
+include:
+  - _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default.
