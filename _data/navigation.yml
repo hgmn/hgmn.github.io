@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "CV"
+    url: /assets/hagemann_cv.pdf
+  - title: "Research"
+    url: /
+  - title: "Teaching"
+    url: /teaching/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
