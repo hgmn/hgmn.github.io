@@ -63,14 +63,14 @@ author:
       # url: "https://github.com/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square icon-override"
-      url: "https://twitter.com/hagmnn"
+      # url: "https://twitter.com/hagmnn"
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/hagmnn"
+      url: "https://twitter.com/hagmnn"
     - label: "hagem@umich.edu"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:hagem@umich.edu"
