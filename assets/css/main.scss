@@ -1,0 +1,52 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+$umblue: #00274C;
+$ummaize: #FFCB05;
+$umwhite: #ffffff;
+$ummuted: #efefef;
+$text-color: #0a0a0a !default;
+$background-color: $ummuted !default;
+$primary-color: $ummaize !default;
+$masthead-link-color: $ummuted !default;
+$masthead-link-color-hover: $umwhite !default;
+
+.masthead {
+  background: $umblue !important; // override
+}
+
+.masthead__menu {
+  background: $umblue !important; // override
+}
+
+.masthead__menu-item {
+  background: $umblue !important; // override
+}
+
+.greedy-nav {
+  background: $umblue !important; // override
+}
+
+.page__footer {
+  background: $umblue !important; // override
+  color: $umwhite !important; // override
+}
+
+.favicon-override {
+  color: $umwhite !important; // override
+}
+
+.masthead {
+  border-bottom: 4px solid $ummaize !important; // override
+}
+
+.site-title {
+  text-transform: uppercase;
+}
+
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials

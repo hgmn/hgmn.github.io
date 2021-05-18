@@ -29,11 +29,11 @@ url                      : "https://hgmn.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # "/assets/umlogo.png"
+logo                     :  #"/assets/u-m_logo-hex-withoutline.png"
 masthead_title           : Andreas Hagemann
-
-twitter_username: jekyllrb
-github_username:  jekyll
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+  hide                   : true # true, false (default)
 
 # Site Author
 author:
@@ -62,17 +62,17 @@ author:
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square icon-override"
+      icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/hagmnn"
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-twitter-square favicon-override"
       url: "https://twitter.com/hagmnn"
     - label: "hagem@umich.edu"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope-square favicon-override"
       url: "mailto:hagem@umich.edu"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
