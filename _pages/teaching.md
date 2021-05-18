@@ -36,5 +36,3 @@ Econ30331: Econometrics (undergraduate)
 
 Econ70730: Research Seminar (Ph.D.)
 : Fall 2013
-
-Be300
