@@ -4,7 +4,7 @@ title: ""
 type: pages
 layout: single
 author_profile: true
-redirect_from: 
+redirect_from:
   - /teaching.html
 ---
 # Teaching
@@ -36,3 +36,5 @@ Econ30331: Econometrics (undergraduate)
 
 Econ70730: Research Seminar (Ph.D.)
 : Fall 2013
+
+Be300
