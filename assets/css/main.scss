@@ -9,7 +9,7 @@ $ummaize: #FFCB05;
 $umwhite: #ffffff;
 $ummuted: #efefef;
 $text-color: #0a0a0a !default;
-$background-color: $ummuted !default;
+$background-color: $umwhite !default;
 $primary-color: $ummaize !default;
 $masthead-link-color: $ummuted !default;
 $masthead-link-color-hover: $umwhite !default;
@@ -32,11 +32,11 @@ $masthead-link-color-hover: $umwhite !default;
 
 .page__footer {
   background: $umblue !important; // override
-  color: $umwhite !important; // override
+  color: $ummuted !important; // override
 }
 
 .favicon-override {
-  color: $umwhite !important; // override
+  color: $ummuted !important; // override
 }
 
 .masthead {
