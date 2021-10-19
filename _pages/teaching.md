@@ -12,6 +12,9 @@ All course materials are posted on [Canvas](https://umich.instructure.com). This
 
 ## University of Michigan
 
+BE300: Applied Economics (undergraduate)
+: Fall 2021
+
 Econ452: Econometrics 2 (undergraduate)
 : Fall 2018, Fall 2019, Winter 2020, Fall 2020, Winter 2021
 : [[Sample syllabus]](/assets/hagemann_452_syl.pdf)  [[Sample lecture]](https://www.youtube.com/watch?v=t5Hh-BUV5VU)
