@@ -16,7 +16,7 @@ Inference with a single treated cluster
 
 Reaching for gold: Frequent-flyer status incentives and moral hazard
 : with Y. Orhun (lead author), T. Guo
-: April 2021, forthcoming in *Marketing Science*
+: *Marketing Science* 41(3) (2022), pp. 548-574
 : [[PDF]](/assets/orhun-et_al-gold.pdf)  [[published paper (gated)]](https://doi.org/10.1287/mksc.2021.1341)  [[INFORMS press release]](https://www.informs.org/About-INFORMS/News-Room/Press-Releases/Study-Finds-that-Frequent-Flyer-Programs-Increase-Cost-of-Business-Travel)
 : Using data from a large airline, we document systematic changes in the behavior of frequent flyers as they progress towards elite status. The behavior is more pronounced for business travelers and if the home airport is a hub of the airline.
 
