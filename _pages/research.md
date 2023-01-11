@@ -11,7 +11,7 @@ redirect_from:
 
 Inference on quantile processes with a finite number of clusters
 : January 2023, submitted
-: [[PDF]](/assets/hagemann_qteclust.pdf)  [[arXiv]]()
+: [[PDF]](/assets/hagemann_qteclust.pdf)
 : Randomization methods can be used for inference on entire quantile processes and related objects even if there are finitely many heterogeneous clusters. This includes processes arising from distributional difference-in-difference estimation.
 
 Inference with a single treated cluster
