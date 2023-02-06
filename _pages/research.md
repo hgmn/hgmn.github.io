@@ -26,7 +26,7 @@ Reaching for gold: Frequent-flyer status incentives and moral hazard
 : Using data from a large airline, we document systematic changes in the behavior of frequent flyers as they progress towards elite status. The behavior is more pronounced for business travelers and if the home airport is a hub of the airline.
 
 Permutation inference with a finite number of heterogeneous clusters
-: July 2022, conditionally accepted at the *Review of Economics and Statistics*
+: July 2022, *Review of Economics and Statistics*, forthcoming
 : [[PDF]](/assets/hagemann_rperm.pdf)  [[arXiv]](https://arxiv.org/abs/1907.01049)  [[R code]](/ap)
 : Permutation inference can be adjusted to test conventional (non-sharp) hypotheses about the effect of a binary treatment even if you have finitely many arbitrarily heterogeneous clusters.
 
