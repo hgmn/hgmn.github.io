@@ -32,6 +32,7 @@ The `.ado` files supply three functions:
   * `het_level` is a measure of heterogeneity. No default is supplied.
   * `conf_level` is the level of the test. No default is supplied.
   * `steps` is the number of grid points on [0,1] to search over.
+
 Syntax is: `stc_weight, q_num(.) het_level(.) conf_level(.) steps(.)`.
 
 `stc_estimate` calculates the test decision as in Algorithm 3.3. It has the following arguments:
@@ -40,12 +41,16 @@ Syntax is: `stc_weight, q_num(.) het_level(.) conf_level(.) steps(.)`.
   * `alpha_level` is the level of the test. No default is supplied.
   * Weight *w* is calculated based on the specified values of `rho_level` and `alpha_level`.
   * `steps` from `stc_estimate` is pre-specified to be 10,000.
+
 Syntax is: `stc_estimate varlist, rho_level(.) alpha_level(.)`.
 
 `stc_estimate_robust` computes the largest level of heterogeneity at which the null can no longer be rejected. It has the following arguments:
   * `varlist` and `alpha_level` have the same meaning as before.
   * `rho_start` is the initial value `rho_level` for the robustness check.
   * `inc` is the increment that is added to `rho_start` for the grid search. The output of the function is correct up to less than `inc`. No default is supplied.
+
+Syntax is: `stc_estimate_robust varlist, rho_start(.) alpha_level(.) inc(.)`.
+
 
 ## Replication Code for Table 2
 
