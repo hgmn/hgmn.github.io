@@ -55,3 +55,4 @@ Syntax is: `stc_estimate_robust varlist, rho_start(.) alpha_level(.) inc(.)`.
 ## Replication Code for Table 2
 
 ### Download: [Table-2-Replication.do](/assets/Table_2_Replication.do)
+### Download: [Replication_Data.csv](/assets/all_results.csv)
