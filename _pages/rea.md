@@ -13,7 +13,7 @@ This page provides R and Stata code for Table 1, Algorithm 3.3, and a robustness
 
 ## Stata code
 
-### Download: [stc_weight.ado](/assets/stc_weight.ado), [stc_estimate.ado](/assets/stc_estimate.ado), [stc_estimate_robust.ado](/assets/stc_estimate_robust.ado)
+#### Download: [stc_weight.ado](/assets/stc_weight.ado), [stc_estimate.ado](/assets/stc_estimate.ado), [stc_estimate_robust.ado](/assets/stc_estimate_robust.ado)
 
 ### Installation Instructions
 
@@ -55,7 +55,7 @@ Syntax is: `stc_estimate_robust varlist, rho_start(.) alpha_level(.) inc(.)`.
 
 ## R code
 
-### Download: [hagemann_rea.R](/assets/hagemann_rea.R)
+#### Download: [hagemann_rea.R](/assets/hagemann_rea.R)
 
 Include this file in R with `include('hagemann_rea.R')`. Alternatively, load it into R directly with  
 
