@@ -18,9 +18,9 @@ This page provides R and Stata code for Table 1, Algorithm 3.3, and a robustness
 ### Installation Instructions
 
 1. Download `.ado` files from above.
-2. In STATA command window, execute `sysdir` and locate `personal` directory.
+2. In Stata command window, execute `sysdir` and locate `personal` directory.
 3. Place the `.ado` files from step 1 to the `personal` directory.
-4. Restart STATA.
+4. Restart Stata.
 
 ### Details
 
