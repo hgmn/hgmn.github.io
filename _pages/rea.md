@@ -15,14 +15,14 @@ This page provides R and Stata code for Table 1, Algorithm 3.3, and a robustness
 
 #### Download: [stc_weight.ado](/assets/stc_weight.ado), [stc_estimate.ado](/assets/stc_estimate.ado), [stc_estimate_robust.ado](/assets/stc_estimate_robust.ado)
 
-### Installation Instructions
+#### Installation Instructions
 
 1. Download `.ado` files from above.
 2. In Stata command window, execute `sysdir` and locate `personal` directory.
 3. Place the `.ado` files from step 1 to the `personal` directory.
 4. Restart Stata.
 
-### Details
+#### Details
 
 The `.ado` files supply three functions:
 
@@ -51,7 +51,7 @@ Syntax is: `stc_estimate varlist, rho_level(.) alpha_level(.)`.
 Syntax is: `stc_estimate_robust varlist, rho_start(.) alpha_level(.) inc(.)`.
 
 
-### Replication Code for Table 2: [Table-2-Replication.do](/assets/Table_2_Replication.do), [Replication_Data.csv](/assets/all_results.csv)
+#### Replication Code for Table 2: [Table-2-Replication.do](/assets/Table_2_Replication.do), [Replication_Data.csv](/assets/all_results.csv)
 
 ## R code
 
@@ -79,7 +79,7 @@ The code supplies three functions:
   * `rhostart` is the initial value `rho` for the robustness check.
   * `inc` is the increment that is added to `rho` for the grid search. The output of the function is correct up to less than `inc`. Default is `.001`.
 
-### Raw code
+#### Raw code
 
 ```R
 # Calculates w as in Table 1
