@@ -2,7 +2,6 @@
 ********** program ******************
 *************************************
 
-
 program define determine_cluster_size, rclass
 	args varname
 	
@@ -47,17 +46,19 @@ program define stc_estimate_robust, rclass
 	// final loop to land on smallest, largest rho such that we fail to reject H0
 	local final_decision = 1
 	
-	// inc = increments to go upwards by
+	// go up the rho value by inc, where inc = increments to go upwards by
 	while `final_decision' == 1 {
 		stc_estimate `varlist', alpha_level(`alpha_level') rho_level(`rho_final')
 		local final_decision = `r(result)'
 		local rho_final = `rho_final' + `inc'
 	}
 	
+	// show the final rho such that we fail to reject H0
 	di `rho_final'
 	
 	local incr_final = `rho_final' - `inc'
 	
+	// final rho
 	di "H0 at alpha = `alpha_level' can no longer be rejected at rho = `incr_final'."
 	return local rho_max `incr_final'
 end

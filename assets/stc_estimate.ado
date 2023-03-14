@@ -87,9 +87,10 @@ program define stc_estimate, rclass
 	di "Decision (LHS) is " `decision_lhs'
 	di "Decision (RHS) is " `decision_rhs'
 	
+	/* drop created variables */
 	drop control treated
 	
-	/* format decision and print */
+	/* format decision and print; need to round due to STATA numerical issues */
 	local result = (round(`decision_lhs',0.000001)==round(`decision_rhs',0.000001))
 	if `result'==0 {
 		di "Decision is do not reject at alpha = `alpha_level', with rho = `rho_l'"
