@@ -8,13 +8,13 @@ redirect_from:
   - /rea-stata.html
 ---
 
-# STATA Code for "Inference with a single treated cluster"
+# Stata Code for "Inference with a single treated cluster"
 
-This page provides STATA code for Table 1, Algorithm 3.3, and a robustness check contained in my paper "Inference with a single treated cluster" [[PDF]](/assets/hagemann_rea.pdf).
+This page provides Stata code for Table 1, Algorithm 3.3, and a robustness check contained in my paper "Inference with a single treated cluster" [[PDF]](/assets/hagemann_rea.pdf).
 
 ### Download: [stc_weight.ado](/assets/stc_weight.ado)
-### Download: [stc_estimate.ado](/assets/stc_estimate.R)
-### Download: [stc_estimate_robust.ado](/assets/stc_estimate_robust.R)
+### Download: [stc_estimate.ado](/assets/stc_estimate.ado)
+### Download: [stc_estimate_robust.ado](/assets/stc_estimate_robust.ado)
 
 ## Installation Instructions
 
