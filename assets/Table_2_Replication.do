@@ -7,7 +7,7 @@ clear *
 
 set type double
 
-import delimited using "/Users/rexhsieh/Dropbox (University of Michigan)/Single Cluster Inference - STATA/application_check/all_results.csv", clear 
+import delimited using "[PATH]/all_results.csv", clear 
 
 forvalues i=3/7 {
 	
