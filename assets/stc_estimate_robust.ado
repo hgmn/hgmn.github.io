@@ -13,13 +13,13 @@ end
 
 program define stc_estimate_robust, rclass
 
-	syntax varlist [, alpha_level(real 1) rho_start(real 1) inc(real 1)]
+	syntax varlist [, alpha_level(real 1) rho_start(real 1) inc(real 1) option(real 1)]
 	
 	// start rho iteration
 	local rho_level = `rho_start'
 	
 	// estimate rho_start
-	stc_estimate `varlist', alpha_level(`alpha_level') rho_level(`rho_level')
+	stc_estimate `varlist', alpha_level(`alpha_level') rho_level(`rho_level') option(`option')
 	local fin_result = r(result)
 	di `fin_result'
 	

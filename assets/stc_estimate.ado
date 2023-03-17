@@ -13,7 +13,7 @@ end
 
 program define stc_estimate, rclass
 	/* arguments */
-	syntax varlist [, alpha_level(real 1) rho_level(real 1)]
+	syntax varlist [, alpha_level(real 1) rho_level(real 1) option(real 1)]
 	
 	foreach var of local varlist {
 		quiet summarize `var'
@@ -30,10 +30,25 @@ program define stc_estimate, rclass
 	local q0_size = `r(q0)'
 	
 	/* determine the length of weights to search over */	
-	stc_weight , q_num(`q0_size') conf_level(`alpha_level') het_level(`rho_level') steps(1000)
-	local w 		= `r(w)'
-	local alpha_l	= `alpha_level'
-	local rho_l		= `rho_level'
+	if `option'==1 {
+		stc_weight , q_num(`q0_size') conf_level(`alpha_level') het_level(`rho_level') steps(1000)
+		local w 		= `r(w)'
+		local alpha_l	= `alpha_level'
+		local rho_l		= `rho_level'
+	}
+	
+	if `option'==2 {
+		stc_weight2 , q_num(`q0_size') conf_level(`alpha_level') het_level(`rho_level') steps(1000)
+		local w 		= `r(w)'
+		local alpha_l	= `alpha_level'
+		local rho_l		= `rho_level'
+	}
+	
+	if `option'>2 {
+		di "Invalid option. Option takes either value 1 or 2. Option 1 is the default. Option 2 uses the upper bound assuming variances in control clusters are bounded away from zero."
+		drop control treated
+		exit
+	}
 	
 	/* compute averages */
 	quietly summarize treated if !missing(treated) /* treated */
