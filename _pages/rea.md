@@ -32,7 +32,9 @@ The `.ado` files supply three functions:
   * `conf_level` is the level of the test. No default is supplied.
   * `steps` is the number of grid points on [0,1] to search over.
 
-Syntax is: `stc_weight, q_num(.) het_level(.) conf_level(.) steps(.) option(.)`.
+Syntax is: `stc_weight, q_num(.) het_level(.) conf_level(.) steps(.)`.
+
+`stc_weight2` calculates the weight *w*, assuming the variance of all control clusters are bounded away zero. It takes the same arguments as `stc_weight`. The syntax is also identical to that of `stc_weight`: `stc_weight2, q_num(.) het_level(.) conf_level(.) steps(.)`.
 
 `stc_estimate` calculates the test decision as in Algorithm 3.3. It has the following arguments:
   * `varlist` contains both the cluster-level estimate from a treated cluster, and a vector of cluster-level estimates from control clusters.
@@ -50,8 +52,6 @@ Syntax is: `stc_estimate varlist, rho_level(.) alpha_level(.) option(.)`.
   * `inc` is the increment that is added to `rho_start` for the grid search. The output of the function is correct up to less than `inc`. No default is supplied.
 
 Syntax is: `stc_estimate_robust varlist, rho_start(.) alpha_level(.) inc(.) option(.)`.
-
-`stc_weight2` calculates the weight *w*, assuming the variance of all control clusters are bounded away zero. It takes the same arguments as `stc_weight`. The syntax is also identical to that of `stc_weight`: `stc_weight2, q_num(.) het_level(.) conf_level(.) steps(.)`.
 
 #### Replication Code for Table 2: [Table-2-Replication.do](/assets/Table_2_Replication.do), [Replication_Data.csv](/assets/all_results.csv)
 
