@@ -27,7 +27,7 @@ Reaching for gold: Frequent-flyer status incentives and moral hazard
 
 Permutation inference with a finite number of heterogeneous clusters
 : July 2022, *Review of Economics and Statistics*, forthcoming
-: [[PDF]](/assets/hagemann_rperm.pdf)  [[arXiv]](https://arxiv.org/abs/1907.01049)  [[R code]](/ap)
+: [[PDF]](/assets/hagemann_rperm.pdf)  [[arXiv]](https://arxiv.org/abs/1907.01049)  [[published paper (gated)]](https://doi.org/10.1162/rest_a_01300)  [[R code]](/ap)
 : Permutation inference can be adjusted to test conventional (non-sharp) hypotheses about the effect of a binary treatment even if you have finitely many arbitrarily heterogeneous clusters.
 
 Placebo inference on treatment effects when the number of clusters is small
