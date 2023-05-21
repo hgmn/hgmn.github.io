@@ -16,7 +16,7 @@ Colliders in the boardroom?
 : Estimates of effects of women in leadership positions on other women at the same organization can have incorrect signs and sizes because of endogenous selection bias. Similar effects can be produced for any underrepresented group. 
 
 Inference on quantile processes with a finite number of clusters
-: January 2023, submitted
+: January 2023, revise and resubmit at the *Journal of Econometrics*
 : [[PDF]](/assets/hagemann_qteclust.pdf)  [[arXiv]](https://arxiv.org/abs/2301.04687)
 : Randomization methods can be used for inference on entire quantile processes and related objects even if there are finitely many heterogeneous clusters. This includes processes arising from distributional difference-in-differences estimation.
 
