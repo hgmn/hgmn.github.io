@@ -113,11 +113,11 @@ course on this topic and with this goal used to be offered in Economics.
 My proposal is to expand the current "Topics in BE I" (BE 887) course to
 a full semester course that fills this gap.
 
-## Quotes from students {#quotes-from-students .unnumbered}
+## Quotes from students {#quotes-from-students}
 
 Below are some quotes from students about BE300, Econ452, and Econ672.
 
-### From the evaluations of BE300 {#from-the-evaluations-of-be300 .unnumbered}
+### From the evaluations of BE300 {#from-the-evaluations-of-be300}
 
 "As a professor, he was always incredibly encouraging and would go out
 of his way to help students. It is true that sometimes the content would
@@ -144,7 +144,7 @@ that I could understand the material best out of all of my previous
 courses as well. Professor Hagemann made it very clear what was expected
 of us and was rational, empathetic and approachable."
 
-### From the evaluations of Econ452 {#from-the-evaluations-of-econ452 .unnumbered}
+### From the evaluations of Econ452 {#from-the-evaluations-of-econ452}
 
 "Excellent instruction. He wanted you to leave the class with an
 understanding of the material that you would need and the skills to use
@@ -167,7 +167,7 @@ something I wasn't sure was possible. Professor Hagemann explained the
 material well which was really nice. He also seemed to genuinely want us
 to succeed."
 
-### From a Golden Apple nomination for Econ452 {#from-a-golden-apple-nomination-for-econ452 .unnumbered}
+### From a Golden Apple nomination for Econ452 {#from-a-golden-apple-nomination-for-econ452}
 
 "He changed the way I thought about using statistics. \[...\] ECON 452
 with Prof Hagemann not only prepped me for other more advanced stats
@@ -175,7 +175,7 @@ classes but inspired in me a much greater appreciation and interest in
 statistics in general. I changed my academic journey and career path to
 further explore the field because of this class."
 
-### From the evaluations of Econ672 {#from-the-evaluations-of-econ672 .unnumbered}
+### From the evaluations of Econ672 {#from-the-evaluations-of-econ672}
 
 "Andreas was one of the best instructors in the first year econ
 sequence. He is approachable, humorous and extremely open to questions
