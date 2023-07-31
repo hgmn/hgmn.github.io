@@ -51,7 +51,7 @@ software package. In the second half, we spend most of the lecture
 discussing high-profile research papers from economics and public
 policy. For four of the five times I taught this course, the fraction of
 students who described me as a very good or excellent teacher (Q2
-equivalent, see table below) was well above 90 percent. I was nominated
+equivalent, see table[^1] below) was well above 90 percent. I was nominated
 for an Golden Apple award by my Econ452 class in Winter 2021.
 
 | | | Excellent <br> instructor <br> % agree |
@@ -72,7 +72,7 @@ for an Golden Apple award by my Econ452 class in Winter 2021.
 |																		| Fall 2018 		|100 |
 | 																		| Fall 2015 		|100 |
 
-  : Percent of students who 'Agree' or 'Strongly Agree' to "Overall, Andreas Hagemann was an excellent teacher. (Q2)"
+[1]: Percent of students who 'Agree' or 'Strongly Agree' to "Overall, Andreas Hagemann was an excellent teacher. (Q2)"
 
 Econ672 is the second econometrics course that graduate students in
 economics take. It is also attended by a wide variety of students from
