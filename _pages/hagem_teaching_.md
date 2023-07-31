@@ -10,10 +10,10 @@ redirect_from:
 # Teaching statement
 
 Teaching at the University of Michigan has been a privilege. At Ross, I
-have taught the BBA core applied economics course BE300 five times since
+have taught the BBA core **applied economics** course BE300 five times since
 joining in Fall 2021. In the Department of Economics, I taught several
-iterations of the undergraduate econometrics elective Econ452, the PhD
-core econometrics class Econ672, and the second-year econometric theory
+iterations of the **undergraduate econometrics** elective Econ452, the **PhD
+core econometrics** class Econ672, and the second-year econometric theory
 field sequence Econ678-Econ679. I have received consistently high
 ratings for all of my classes both in Ross and in Economics. I arrived
 at these ratings through careful preparation and iteration. After every
