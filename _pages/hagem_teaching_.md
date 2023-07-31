@@ -54,7 +54,7 @@ students who described me as a very good or excellent teacher (Q2
 equivalent, see table below) was well above 90 percent. I was nominated
 for an Golden Apple award by my Econ452 class in Winter 2021.
 
-| | | Excellent instructor % agree |
+| | | Excellent <br> instructor <br> % agree |
 | --------------------------------------------------------- | ------------------ | -- |
 | Econ452: Econometrics 2 (undergraduate) 	| Winter 2021  	| 96 |
 | 																		| Fall 2020 		| 96 |
