@@ -1,12 +1,13 @@
 ---
 permalink: /hagem_teaching/
-title: "Teaching statement"
+title: ""
 type: pages
 layout: single
 author_profile: true
 redirect_from:
   - /hagem_teaching.html
 ---
+# Teaching statement
 
 Teaching at the University of Michigan has been a privilege. At Ross, I
 have taught the BBA core applied economics course BE300 five times since
