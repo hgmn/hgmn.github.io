@@ -1,6 +1,6 @@
 ---
 permalink: /hagem_teaching/
-title: ""
+title: "Teaching statement"
 type: pages
 layout: single
 author_profile: true
@@ -23,7 +23,7 @@ Continuous refinement of my teaching has allowed me to excel in diverse
 classroom settings, with different audiences, subjects, and proficiency
 levels. Below is a summary of my teaching.
 
-## Teaching at Ross {#teaching-at-ross .unnumbered}
+## Teaching at Ross {#teaching-at-ross}
 
 I taught two sections of BE300 during the 2021/22 academic year (75+34
 students) and three sections of BE300 during the 2022/23 academic year
@@ -38,7 +38,7 @@ classes are highly interactive and my students enjoy several
 action-based learning experiences such as repeated negotiations,
 auctions under uncertainty, and computer-based market simulations.
 
-## Teaching in Economics {#teaching-in-economics .unnumbered}
+## Teaching in Economics {#teaching-in-economics}
 
 I have taught four courses in the Department of Economics at Michigan,
 (i) Econ452, (ii) Econ672, (iii) Econ678, and (iv) Econ679. Econ452 is
@@ -98,7 +98,7 @@ state of econometric research. The fraction of students who described me
 as a very good or excellent teacher (Q2 equivalent) was 100 percent for
 each of the six times I taught these courses.
 
-## Outlook {#outlook .unnumbered}
+## Outlook {#outlook}
 
 I am looking forward to expanding my teaching at Ross both at the
 undergraduate and graduate level. I am planning on proposing a BBA
