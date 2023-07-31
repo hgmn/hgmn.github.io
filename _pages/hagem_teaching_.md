@@ -71,7 +71,7 @@ for an Golden Apple award by my Econ452 class in Winter 2021.
 | 																		| Fall 2019 		| 100 |
 |																		| Fall 2018 		|100 |
 | 																		| Fall 2015 		|100 |
-| Percent of students who 'Agree' or 'Strongly Agree' to "Overall, Andreas Hagemann was an excellent teacher. (Q2) ||| | 
+| Percent of students who 'Agree' or 'Strongly Agree' to "Overall, Andreas Hagemann was an excellent teacher. (Q2) || | 
 
 
 Econ672 is the second econometrics course that graduate students in
