@@ -54,7 +54,7 @@ students who described me as a very good or excellent teacher (Q2
 equivalent, see table below) was well above 90 percent. I was nominated
 for an Golden Apple award by my Econ452 class in Winter 2021.
 
-| | | Excellent <br> instructor <br> % agree |
+| | | Excellent <br> instructor <br> % agree<sup>1</sup> |
 | --------------------------------------------------------- | ------------------ | -- |
 | Econ452: Econometrics 2 (undergraduate) 	| Winter 2021  	| 96 |
 | 																		| Fall 2020 		| 96 |
@@ -72,7 +72,7 @@ for an Golden Apple award by my Econ452 class in Winter 2021.
 |																		| Fall 2018 		|100 |
 | 																		| Fall 2015 		|100 |
 
-*<font size="3">Percent of students who 'Agree' or 'Strongly Agree' to "Overall, Andreas Hagemann was an excellent teacher. (Q2)</font>*
+*<font size="3">1: Percent of students who 'Agree' or 'Strongly Agree' to "Overall, Andreas Hagemann was an excellent teacher. (Q2)</font>*
 
 Econ672 is the second econometrics course that graduate students in
 economics take. It is also attended by a wide variety of students from
