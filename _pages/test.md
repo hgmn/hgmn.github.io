@@ -1,5 +1,4 @@
 ---
----
 permalink: /hagem_research/
 title: ""
 type: pages
