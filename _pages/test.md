@@ -70,7 +70,7 @@ Inference about an infinite-dimensional object such as the quantile
 regression function in the cluster context requires analysis of a
 non-standard Gaussian process whose distributional properties cannot be
 tabulated. I am the first to point this out in **Cluster-Robust
-Bootstrap Inference in Quantile Regression Models** [@hagemann2017
+Bootstrap Inference in Quantile Regression Models** [@hagemann2017]
 *Journal of the American Statistical Association*], where I provide an
 exhaustive solution to this problem for quantile regression and develop
 the *wild gradient bootstrap* for cluster-robust inference in linear
