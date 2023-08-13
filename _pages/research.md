@@ -9,6 +9,9 @@ redirect_from:
   - /research.html
 ---
 
+**Aug 13, 2023:** I revised my **research statement** ([.pdf](/assets/hagemann_research.pdf)) to include that "Colliders in the boardroom?" received an R&R at the *Strategic Management Journal*. My **teaching statement** ([.pdf](/assets/hagemann_teaching.pdf)) is now also available for download.
+{: .notice--info}
+
 Colliders in the boardroom?
 : with J. Frake, J. Uribe
 : April 2023, revise and resubmit at the *Strategic Management Journal*
