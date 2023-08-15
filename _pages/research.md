@@ -9,7 +9,7 @@ redirect_from:
   - /research.html
 ---
 
-**Aug 13, 2023:** I revised my **research statement** ([.pdf](/assets/hagemann_research.pdf)) to include that "Colliders in the boardroom?" received an R&R at the *Strategic Management Journal*. My **teaching statement** ([.pdf](/assets/hagemann_teaching.pdf)) is now also available for download.
+**Aug 15, 2023:** I revised my **research statement** ([.pdf](/assets/hagemann_research.pdf)) to include that "Colliders in the boardroom?" received an R&R at the *Strategic Management Journal* and that "Inference with a single treated cluster" received a 2nd round R&R at the *Review of Economic Studies*. My **teaching statement** ([.pdf](/assets/hagemann_teaching.pdf)) is now also available for download.
 {: .notice--info}
 
 Colliders in the boardroom?
@@ -24,7 +24,7 @@ Inference on quantile processes with a finite number of clusters
 : Randomization methods can be used for inference on entire quantile processes and related objects even if there are finitely many heterogeneous clusters. This includes processes arising from distributional difference-in-differences estimation.
 
 Inference with a single treated cluster
-: April 2023, revise and resubmit at the *Review of Economic Studies*
+: April 2023, revise and resubmit at the *Review of Economic Studies* (2nd round)
 : [[.pdf]](/assets/hagemann_rea.pdf)  [[arXiv]](/assets/hagemann_rea.pdf)  [[R and Stata code]](/rea)
 : A mild restriction on some but not all of the heterogeneity allows inference about a scalar parameter in research designs with a finite number of heterogeneous clusters where only a single cluster received treatment.
 
