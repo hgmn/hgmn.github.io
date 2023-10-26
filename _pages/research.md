@@ -8,8 +8,16 @@ redirect_from:
   - /research/
   - /research.html
 ---
-**Oct 13, 2023:** I updated my **research statement** ([.pdf](/assets/hagemann_research.pdf)) to include that "Colliders in the boardroom?" was revised and resubmitted to the *Strategic Management Journal* and that "Inference with a single treated cluster" received a 2nd round R&R at the *Review of Economic Studies*. My **teaching statement** ([.pdf](/assets/hagemann_teaching.pdf)) is now also available for download.
-{: .notice--info}
+{% capture notice %}
+**Oct 26, 2023:** I updated my **research statement** ([.pdf](/assets/hagemann_research.pdf)) to include that 
+* "Inference on quantile processes with a finite number of clusters" was accepted at the *Journal of Econometrics*, 
+* "Colliders in the boardroom?" was revised and resubmitted to the *Strategic Management Journal*, and 
+* "Inference with a single treated cluster" received a 2nd round R&R at the *Review of Economic Studies*. 
+
+My **teaching statement** ([.pdf](/assets/hagemann_teaching.pdf)) is now also available for download.
+{% endcapture %}
+
+<div class="notice--info">{{ notice | markdownify }}</div>
 
 Colliders in the boardroom?
 : with J. Frake, J. Uribe
@@ -18,7 +26,7 @@ Colliders in the boardroom?
 : Estimates of effects of women in leadership positions on other women at the same organization can have incorrect signs and sizes because of endogenous selection bias. Similar effects can be produced for any underrepresented group. 
 
 Inference on quantile processes with a finite number of clusters
-: June 2023, revise and resubmit at the *Journal of Econometrics*
+: June 2023, *Journal of Econometrics*, forthcoming
 : [[.pdf]](/assets/hagemann_qteclust.pdf)  [[arXiv]](https://arxiv.org/abs/2301.04687)
 : Randomization methods can be used for inference on entire quantile processes and related objects even if there are finitely many heterogeneous clusters. This includes processes arising from distributional difference-in-differences estimation.
 
