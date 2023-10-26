@@ -9,12 +9,12 @@ redirect_from:
   - /research.html
 ---
 {% capture notice %}
-**Oct 26, 2023:** I updated my **research statement** ([.pdf](/assets/hagemann_research.pdf)) to include that 
-* "Inference on quantile processes with a finite number of clusters" was accepted at the *Journal of Econometrics*, 
-* "Colliders in the boardroom?" was revised and resubmitted to the *Strategic Management Journal*, and 
-* "Inference with a single treated cluster" received a 2nd round R&R at the *Review of Economic Studies*. 
+**Oct 26, 2023.** Updated **research statement** ([.pdf](/assets/hagemann_research.pdf)): 
+* "Inference on quantile processes with a finite number of clusters" accepted at *Journal of Econometrics*,
+* "Colliders in the boardroom?" revised and resubmitted to *Strategic Management Journal*,
+* "Inference with a single treated cluster" received 2nd round R&R at *Review of Economic Studies*. 
 
-My **teaching statement** ([.pdf](/assets/hagemann_teaching.pdf)) is now also available for download.
+My **teaching statement** ([.pdf](/assets/hagemann_teaching.pdf)) is now also available.
 {% endcapture %}
 
 <div class="notice--info">{{ notice | markdownify }}</div>
