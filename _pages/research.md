@@ -9,19 +9,17 @@ redirect_from:
   - /research.html
 ---
 {% capture notice %}
+**Jan 11, 2024.** "Colliders in the boardroom?" accepted at *Strategic Management Journal*
+  
 **Oct 26, 2023.** Updated **research statement** ([.pdf](/assets/hagemann_research.pdf)): 
 * "Inference on quantile processes with a finite number of clusters" accepted at *Journal of Econometrics*,
-* "Colliders in the boardroom?" revised and resubmitted to *Strategic Management Journal*,
 * "Inference with a single treated cluster" received 2nd round R&R at *Review of Economic Studies*. 
-
-My **teaching statement** ([.pdf](/assets/hagemann_teaching.pdf)) is now also available.
 {% endcapture %}
-
 <div class="notice--info">{{ notice | markdownify }}</div>
 
 Colliders in the boardroom?
 : with J. Frake, J. Uribe
-: October 2023, revise and resubmit at the *Strategic Management Journal*
+: October 2023, *Strategic Management Journal*, accepted
 : [[.pdf]](/assets/frake_et_al-colliders.pdf)  [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4418418)
 : Estimates of effects of women in leadership positions on other women at the same organization can have incorrect signs and sizes because of endogenous selection bias. Similar effects can be produced for any underrepresented group. 
 
