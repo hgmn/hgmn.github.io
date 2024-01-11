@@ -9,7 +9,8 @@ redirect_from:
   - /research.html
 ---
 {% capture notice %}
-**Jan 11, 2024.** "Colliders in the boardroom?" accepted at *Strategic Management Journal*
+**Jan 11, 2024.** 
+* "Colliders in the boardroom?" accepted at *Strategic Management Journal*
   
 **Oct 26, 2023.** Updated **research statement** ([.pdf](/assets/hagemann_research.pdf)): 
 * "Inference on quantile processes with a finite number of clusters" accepted at *Journal of Econometrics*,
