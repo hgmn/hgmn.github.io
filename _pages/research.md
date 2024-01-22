@@ -18,7 +18,7 @@ redirect_from:
 
 Colliders in the boardroom?
 : with J. Frake, J. Uribe
-: October 2023, *Strategic Management Journal*, accepted
+: October 2023, *Strategic Management Journal*, forthcoming
 : [[.pdf]](/assets/frake_et_al-colliders.pdf)  [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4418418)
 : Estimates of effects of women in leadership positions on other women at the same organization can have incorrect signs and sizes because of endogenous selection bias. Similar effects can be produced for any underrepresented group. 
 
