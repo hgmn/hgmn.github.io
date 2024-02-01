@@ -24,7 +24,7 @@ Colliders in the boardroom?
 
 Inference on quantile processes with a finite number of clusters
 : June 2023, *Journal of Econometrics*, forthcoming
-: [[.pdf]](/assets/hagemann_qteclust.pdf)  [[arXiv]](https://arxiv.org/abs/2301.04687)
+: [[.pdf]](/assets/hagemann_qteclust.pdf)  [[arXiv]](https://arxiv.org/abs/2301.04687)  [[published paper (gated)]](https://doi.org/10.1016/j.jeconom.2024.105672)
 : Randomization methods can be used for inference on entire quantile processes and related objects even if there are finitely many heterogeneous clusters. This includes processes arising from distributional difference-in-differences estimation.
 
 Inference with a single treated cluster
