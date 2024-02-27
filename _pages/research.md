@@ -8,6 +8,7 @@ redirect_from:
   - /research/
   - /research.html
 ---
+<!---
 {% capture notice %}
 **Jan 11, 2024.** Updated **research statement** ([.pdf](/assets/hagemann_research.pdf)): 
 * "Colliders in the boardroom?" accepted at *Strategic Management Journal*,
@@ -15,7 +16,7 @@ redirect_from:
 * "Inference with a single treated cluster" received 2nd round R&R at *Review of Economic Studies*. 
 {% endcapture %}
 <div class="notice--info">{{ notice | markdownify }}</div>
-
+--->
 Colliders in the boardroom?
 : with J. Frake, J. Uribe
 : October 2023, *Strategic Management Journal*, forthcoming
