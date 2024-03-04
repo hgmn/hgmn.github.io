@@ -17,7 +17,7 @@ redirect_from:
 {% endcapture %}
 <div class="notice--info">{{ notice | markdownify }}</div>
 --->
-Collider bias in strategy and management research: An illustration using women CEO’s effect on other women’s career outcomes
+Collider bias in strategy and management research
 : with J. Frake, J. Uribe
 : October 2023, *Strategic Management Journal*, forthcoming
 : [[.pdf]](/assets/frake_et_al-colliders.pdf)  [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4418418)
