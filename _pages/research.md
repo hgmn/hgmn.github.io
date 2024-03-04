@@ -11,13 +11,13 @@ redirect_from:
 <!---
 {% capture notice %}
 **Jan 11, 2024.** Updated **research statement** ([.pdf](/assets/hagemann_research.pdf)): 
-* "Colliders in the boardroom?" accepted at *Strategic Management Journal*,
+* "Collider Bias in Strategy and Management Research: An Illustration Using Women CEO’s Effect on Other Women’s Career Outcomes" accepted at *Strategic Management Journal*,
 * "Inference on quantile processes with a finite number of clusters" accepted at *Journal of Econometrics*,
 * "Inference with a single treated cluster" received 2nd round R&R at *Review of Economic Studies*. 
 {% endcapture %}
 <div class="notice--info">{{ notice | markdownify }}</div>
 --->
-Colliders in the boardroom?
+Collider bias in strategy and management research: An illustration using women CEO’s effect on other women’s career outcomes
 : with J. Frake, J. Uribe
 : October 2023, *Strategic Management Journal*, forthcoming
 : [[.pdf]](/assets/frake_et_al-colliders.pdf)  [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4418418)
