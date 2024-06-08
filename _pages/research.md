@@ -19,7 +19,7 @@ redirect_from:
 --->
 Collider bias in strategy and management research
 : with J. Frake, J. Uribe
-: October 2023, *Strategic Management Journal*, forthcoming
+: October 2023, *Strategic Management Journal* 45(7) (2024), pp. 1393-1419
 : [[.pdf]](/assets/frake_et_al-colliders.pdf)  [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4418418)  [[published paper (gated)]](https://doi.org/10.1002/smj.3588)
 : Estimates of effects of women in leadership positions on other women at the same organization can have incorrect signs and sizes because of endogenous selection bias. Similar effects can be produced for any underrepresented group. 
 
