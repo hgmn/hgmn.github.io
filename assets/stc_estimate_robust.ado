@@ -2,6 +2,14 @@
 ********** program ******************
 *************************************
 
+// integration objective
+mata real scalar f1(real scalar y, real scalar rho, real scalar w, real scalar q) {
+	q = strtoreal(st_local("q"))
+	w = strtoreal(st_local("w"))
+	rho = strtoreal(st_local("rho"))
+	return(normal((1-w)*rho*y)^(q-1) * normalden(y))
+}
+
 program define determine_cluster_size, rclass
 	args varname
 	
@@ -26,7 +34,6 @@ program define stc_estimate_robust, rclass
 	// if failing to reject, nothing else to do
 	if `fin_result'==0 {
 		di "NA. Test fails to reject at the level of rho specified."
-		exit
 	}
 	
 	// if rejected, then proceed with updating rho_start
@@ -54,11 +61,10 @@ program define stc_estimate_robust, rclass
 	}
 	
 	// show the final rho such that we fail to reject H0
-	di `rho_final'
-	
 	local incr_final = `rho_final' - `inc'
+	local incr_final_disp = round(`incr_final', 0.0001)
 	
 	// final rho
-	di "H0 at alpha = `alpha_level' can no longer be rejected at rho = `incr_final'."
-	return local rho_max `incr_final'
+	di "H0 at alpha = `alpha_level' can no longer be rejected at rho = `incr_final_disp'."
+	return local rho_max = round(`incr_final_disp', 0.0001)
 end

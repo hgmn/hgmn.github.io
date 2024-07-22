@@ -31,7 +31,7 @@ program define stc_weight, rclass
 	/* arguments */
 	syntax [, q_num(real 1) conf_level(real 1) het_level(real 1) steps(real 1)]
 	
-	local w = 1/`steps'
+	local w = 0
 	local q = `q_num'
 	local rho = `het_level'
 	local alpha = `conf_level'
@@ -44,6 +44,7 @@ program define stc_weight, rclass
 		mata: optimize_init_evaluator(S, &f0())
 		mata: optimize_init_params(S, 2)
 		mata: optimize_init_which(S,"min")
+		mata: optimize_init_tracelevel(S,"none")
 		mata: optimize(S)
 		mata: b = optimize_result_value(S)
 		mata: st_numscalar("r(f0_min)", b)
@@ -60,26 +61,31 @@ program define stc_weight, rclass
 		
 		// determine objective value
 		local wres = 2^(-`q'-1) + r(f0_min) + r(f1_int)
-		di `wres' " and " `alpha'
+		di "the upper bound of the size is " `wres' ", and your specified (1 - confidence level) = " `alpha'
 		
 		// break loop if objective value is below confidence level specified
 		if (`wres' <= `conf_level') {
-			di "yes, weight = `w'"
+			di "Yes, the optimal weight is found: w = `w'."
 			continue, break
 		} 
 		
 		local w = `w' + (1/`steps')
 		mata: mata drop S q
+		
 	}
+	
+	
 	
 	// error messages
 	if `w' >= 1 {
-		di "No optimal weights found. Decrease rho, increase alpha."
+		di "No optimal weight is found. Decrease rho, increase alpha."
 		return local w 0
+		return local f1_res `r(f1_int)'
 	}
 	
 	if `w' < 1 {
 		return local w `w'
+		return local f1_res `r(f1_int)'
 	}
 	
 end

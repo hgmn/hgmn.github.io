@@ -2,6 +2,14 @@
 ********** program ******************
 *************************************
 
+// integration objective
+mata real scalar f1(real scalar y, real scalar rho, real scalar w, real scalar q) {
+	q = strtoreal(st_local("q"))
+	w = strtoreal(st_local("w"))
+	rho = strtoreal(st_local("rho"))
+	return(normal((1-w)*rho*y)^(q-1) * normalden(y))
+}
+
 program define determine_cluster_size, rclass
 	args varname
 	
@@ -33,6 +41,7 @@ program define stc_estimate, rclass
 	if `option'==1 {
 		stc_weight , q_num(`q0_size') conf_level(`alpha_level') het_level(`rho_level') steps(1000)
 		local w 		= `r(w)'
+		local f1_res	= `r(f1_res)'
 		local alpha_l	= `alpha_level'
 		local rho_l		= `rho_level'
 	}
@@ -40,6 +49,7 @@ program define stc_estimate, rclass
 	if `option'==2 {
 		stc_weight2 , q_num(`q0_size') conf_level(`alpha_level') het_level(`rho_level') steps(1000)
 		local w 		= `r(w)'
+		local f1_res	= `r(f1_res)'
 		local alpha_l	= `alpha_level'
 		local rho_l		= `rho_level'
 	}
@@ -49,12 +59,11 @@ program define stc_estimate, rclass
 		drop control treated
 		exit
 	}
-	
+		
 	/* compute averages */
 	quietly summarize treated if !missing(treated) /* treated */
 	quietly summarize control if !missing(control) /* control */
 	local mean_x0	= r(sum)/r(N)
-	di "mean of control = `mean_x0'"
 	
 	drop if missing(control) & missing(treated)
 	
@@ -63,9 +72,7 @@ program define stc_estimate, rclass
 		local x1_w1		= (1+`w')*(treated - `mean_x0')
 		local x1_w2		= (1-`w')*(treated - `mean_x0')
 		gen x0_w1		= (control - `mean_x0')
-		
-		di `x1_w1' `x1_w2'
-		
+				
 		/* first part of decision */
 		/* mean of first two entries, mean(S[1:2]) */
 		local mean_x1_w1_w2	= (`x1_w1' + `x1_w2')*(0.5) 
@@ -88,19 +95,16 @@ program define stc_estimate, rclass
 
 		/* ingredients for decision */
 		local mean_x1_w1_w2_placebo = (x0_w1_placebo[1] + x0_w1_placebo[2])*(0.5)
-		di `mean_x1_w1_w2_placebo'
 
 		quietly summarize x0_w1_placebo if _n > 2
 		local mean_x0_w1_placebo = r(sum)/r(N)
-		di `mean_x0_w1_placebo'
 	restore
 		
 	/* calculate decision */
 	local decision_lhs = `mean_x1_w1_w2' - `mean_x0_w1'
 	local decision_rhs = `mean_x1_w1_w2_placebo' - `mean_x0_w1_placebo'
 
-	di "Decision (LHS) is " `decision_lhs'
-	di "Decision (RHS) is " `decision_rhs'
+	di "Decision (LHS) = " `decision_lhs' ", and Decision (RHS) = " `decision_rhs'
 	
 	/* drop created variables */
 	drop control treated
@@ -115,4 +119,13 @@ program define stc_estimate, rclass
 		di "Decision is reject at alpha = `alpha_level', with rho = `rho_l'. Try increasing alpha, decreasing rho."
 		return local result `result'
 	}
+	
+	if `w'==0 {
+		di "w = 0, rho = `rho_level', alpha = `alpha_level', w = `w', q = `q0_size'."
+		
+		local boundalpha = round(5/(2^(`q0_size'+1)) + `f1_res', 0.000001)
+		
+		di "Caution: w=0. The test is valid but may have size less than `alpha_level'. The actual size is alpha=`boundalpha'. Increase rho or decrease alpha to remove Caution."
+	}
+	
 end
