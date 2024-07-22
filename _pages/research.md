@@ -29,7 +29,7 @@ Inference on quantile processes with a finite number of clusters
 : Randomization methods can be used for inference on entire quantile processes and related objects even if there are finitely many heterogeneous clusters. This includes processes arising from distributional difference-in-differences estimation.
 
 Inference with a single treated cluster
-: April 2023, revise and resubmit at the *Review of Economic Studies* (2nd round)
+: July 2024, revise and resubmit at the *Review of Economic Studies* (2nd round)
 : [[.pdf]](/assets/hagemann_rea.pdf)  [[arXiv]](https://arxiv.org/abs/2010.04076)  [[R and Stata code]](/rea)
 : A mild restriction on some but not all of the heterogeneity allows inference about a scalar parameter in research designs with a finite number of heterogeneous clusters where only a single cluster received treatment.
 
