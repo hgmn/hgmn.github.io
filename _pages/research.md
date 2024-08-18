@@ -8,15 +8,12 @@ redirect_from:
   - /research/
   - /research.html
 ---
-<!---
+
 {% capture notice %}
-**Jan 11, 2024.** Updated **research statement** ([.pdf](/assets/hagemann_research.pdf)): 
-* "Collider Bias in Strategy and Management Research: An Illustration Using Women CEO’s Effect on Other Women’s Career Outcomes" accepted at *Strategic Management Journal*,
-* "Inference on quantile processes with a finite number of clusters" accepted at *Journal of Econometrics*,
-* "Inference with a single treated cluster" received 2nd round R&R at *Review of Economic Studies*. 
+I am on [sabbatical leave](https://michiganross.umich.edu/news/seven-michigan-ross-professors-earn-promotions) during the 24/25 academic year.
 {% endcapture %}
 <div class="notice--info">{{ notice | markdownify }}</div>
---->
+
 Collider bias in strategy and management research
 : with J. Frake, J. Uribe
 : *Strategic Management Journal* 45(7) (2024), pp. 1393-1419
