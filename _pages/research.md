@@ -10,7 +10,7 @@ redirect_from:
 ---
 
 {% capture notice %}
-I am on [sabbatical leave](https://michiganross.umich.edu/news/seven-michigan-ross-professors-earn-promotions) during the 24/25 academic year.
+I am on sabbatical leave during the 24/25 academic year.
 {% endcapture %}
 <div class="notice--info">{{ notice | markdownify }}</div>
 
