@@ -35,7 +35,7 @@ Econ679: Advanced Econometrics II (Ph.D.)
 ## University of California, Santa Barbara
 
 Econ140B: Econometrics 2 (undergraduate)
-: Fall 2025
+: Fall 2024
 : [[Sample syllabus]](/assets/hagemann_140B_syl.pdf)
 
 ## University of Notre Dame
