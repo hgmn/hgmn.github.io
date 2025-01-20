@@ -27,7 +27,7 @@ Inference on quantile processes with a finite number of clusters
 
 Inference with a single treated cluster
 : October 2024, *Review of Economic Studies,* forthcoming
-: [[.pdf]](/assets/hagemann_rea.pdf)  [[arXiv]](https://arxiv.org/abs/2010.04076)  [[R and Stata code]](/rea)
+: [[.pdf]](/assets/hagemann_rea.pdf)  [[arXiv]](https://arxiv.org/abs/2010.04076)  [[R and Stata code]](/rea)  [[published paper (gated)]](https://doi.org/10.1093/restud/rdaf002)
 : A mild restriction on some but not all of the heterogeneity allows inference about a scalar parameter in research designs with a finite number of heterogeneous clusters where only a single cluster received treatment.
 
 Reaching for gold: Frequent-flyer status incentives and moral hazard
