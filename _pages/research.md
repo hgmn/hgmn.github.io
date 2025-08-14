@@ -77,6 +77,6 @@ Robust spectral analysis
 ## Notes
 
 Event studies in unbalanced panels
-: [[.pdf]](/assets/hagemann_unbal.pdf)
 : August 2025
+: [[.pdf]](/assets/hagemann_unbal.pdf)
 : Adding data with seeminly no identifying variation can have positive or negative effects on treatment effects estimation depending on the underlying assumptions.
