@@ -9,10 +9,12 @@ redirect_from:
   - /research.html
 ---
 
+<!--
 {% capture notice %}
 I am on sabbatical leave during the 24/25 academic year.
 {% endcapture %}
 <div class="notice--info">{{ notice | markdownify }}</div>
+-->
 
 Collider bias in strategy and management research
 : with J. Frake, J. Uribe
@@ -72,8 +74,8 @@ Robust spectral analysis
 : [[.pdf]](/assets/hagemann_jmp.pdf)  [[arXiv]](https://arxiv.org/abs/1111.1965)
 : Quantiles can capture systematic changes in the impact of cycles on the distribution of a time series and allow robust spectral estimation and inference when the dependence structure is not captured by the auto-covariance function.
 
-## Work in progress
+## Notes
 
-Randomization inference with waitlists
-: with S. Heller
-: October 2019
+Event studies in unbalanced panels
+: [[.pdf]](/assets/hagemann_unbal.pdf)
+: August 2025
