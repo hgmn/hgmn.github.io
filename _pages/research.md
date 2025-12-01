@@ -23,12 +23,12 @@ Collider bias in strategy and management research
 : Estimates of effects of women in leadership positions on other women at the same organization can have incorrect signs and sizes because of endogenous selection bias. Similar effects can be produced for any underrepresented group. 
 
 Inference on quantile processes with a finite number of clusters
-: June 2023, *Journal of Econometrics*, forthcoming
+: *Journal of Econometrics* 249(A) (2025), article 105672
 : [[.pdf]](/assets/hagemann_qteclust.pdf)  [[arXiv]](https://arxiv.org/abs/2301.04687)  [[published paper (gated)]](https://doi.org/10.1016/j.jeconom.2024.105672)
 : Randomization methods can be used for inference on entire quantile processes and related objects even if there are finitely many heterogeneous clusters. This includes processes arising from distributional difference-in-differences estimation.
 
 Inference with a single treated cluster
-: October 2024, *Review of Economic Studies,* forthcoming
+: *Review of Economic Studies* 92(6) (2025), pp. 3968-3994,
 : [[.pdf]](/assets/hagemann_rea.pdf)  [[arXiv]](https://arxiv.org/abs/2010.04076)  [[published paper (gated)]](https://doi.org/10.1093/restud/rdaf002)  [[R and Stata code]](/rea)
 : A mild restriction on some but not all of the heterogeneity allows inference about a scalar parameter in research designs with a finite number of heterogeneous clusters where only a single cluster received treatment.
 
@@ -39,7 +39,7 @@ Reaching for gold: Frequent-flyer status incentives and moral hazard
 : Using data from a large airline, we document systematic changes in the behavior of frequent flyers as they progress towards elite status. The behavior is more pronounced for business travelers and if the home airport is a hub of the airline.
 
 Permutation inference with a finite number of heterogeneous clusters
-: July 2022, *Review of Economics and Statistics*, forthcoming
+: *Review of Economics and Statistics* 107(4) (2025), pp. 1115-1122
 : [[.pdf]](/assets/hagemann_rperm.pdf)  [[arXiv]](https://arxiv.org/abs/1907.01049)  [[published paper (gated)]](https://doi.org/10.1162/rest_a_01300)  [[R code]](/ap)
 : Permutation inference can be adjusted to test conventional (non-sharp) hypotheses about the effect of a binary treatment even if you have finitely many arbitrarily heterogeneous clusters.
 
