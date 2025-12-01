@@ -8,12 +8,15 @@ redirect_from:
   - /teaching.html
 ---
 # Teaching
-All course materials are posted on [Canvas](https://umich.instructure.com). This page contains an overview of courses I have taught in the past and provides access to my [teaching evaluations](/assets/hagemann_evals.pdf).
+All course materials are posted on [Canvas](https://umich.instructure.com).
 
 ## University of Michigan
 
+BE502: Applied Microeconomics (MBA)
+: Fall 2025
+
 BE300: Applied Economics (undergraduate)
-: Fall 2021, Winter 2023, Winter 2024
+: Fall 2021, Winter 2023, Winter 2024, Winter 2026
 : [[Sample syllabus]](/assets/hagemann_300_syl.pdf)
 
 Econ452: Econometrics 2 (undergraduate)
