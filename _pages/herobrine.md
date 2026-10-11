@@ -6,7 +6,7 @@ classes: hide-page-header
 author_profile: false
 redirect_from:
   - /herobrine.html
-excerpt: "Herobrine"
+excerpt: ""
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
