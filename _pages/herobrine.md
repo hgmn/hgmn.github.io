@@ -6,7 +6,7 @@ classes: no-chrome
 author_profile: false
 redirect_from:
   - /herobrine.html
-excerpt: "Herobrine has been removed."
+excerpt: ""
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
