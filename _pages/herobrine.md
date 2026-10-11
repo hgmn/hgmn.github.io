@@ -7,7 +7,7 @@ hide_footer: true
 author_profile: false
 redirect_from:
   - /herobrine.html
-excerpt: ""
+excerpt: "Herobrine has been removed."
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
