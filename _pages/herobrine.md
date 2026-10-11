@@ -1,6 +1,6 @@
 ---
 permalink: /herobrine/
-title: ""
+title: "Herobrine has taken over this page"
 layout: splash
 author_profile: false
 redirect_from:
@@ -11,8 +11,6 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/hero-banner.jpg
   actions:
-    - label: "Get Started"
-      url: "/docs/quick-start/"
-    - label: "Learn More"
-      url: "#features"
+    - label: "Do no click"
+      url: "https://minecraft.wiki/w/Herobrine"
 ---      
