@@ -51,6 +51,9 @@ $masthead-link-color-hover: $umwhite !default;
   text-transform: uppercase;
 }
 
+.hide-page-header .page__inner-wrap header {
+  display: none;
+}
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
