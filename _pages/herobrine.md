@@ -2,7 +2,8 @@
 permalink: /herobrine/
 title: "Three ghouls are waiting for you in the guest bedroom. They have a request…"
 layout: splash
-classes: hide-page-header
+hide_header: true
+hide_footer: true
 author_profile: false
 redirect_from:
   - /herobrine.html
